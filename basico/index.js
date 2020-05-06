@@ -26,3 +26,28 @@ for (let index = 1; index <=10; index++) {
     console.log(`${index}x${num}=${index*num}`);
     
 }
+
+
+// função 
+function somar(a,b){
+    return a+b;
+
+}
+
+let result=somar(2,3);
+console.log(result);
+
+
+// função anônima
+(function (a,b){
+    return a+b;
+
+})(2,3);
+
+// aerofunction
+let calc=(a,b)=>{
+    return a+b;
+};
+
+let resultadinho = calc(1,2);
+console.log(resultadinho);
