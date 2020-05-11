@@ -51,3 +51,28 @@ let calc=(a,b)=>{
 
 let resultadinho = calc(1,2);
 console.log(resultadinho);
+
+window.addEventListener('click',event=>{
+    console.log("click");
+});
+
+
+let data = new Date();
+console.log(data.toLocaleDateString("pt-BR"));
+
+let carros = ["palio 98","marea turbo","toro"];
+
+console.log(carros);
+console.log(carros[2]);
+
+carros.forEach(function(value,index){
+    console.log(index,value);
+});
+
+
+let montadora = ["Fiat","GM","Volkswagem","Tesla"];
+
+montadora.forEach(function(value,index){
+    console.log(index,value);
+});
+
